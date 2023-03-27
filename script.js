@@ -1,4 +1,4 @@
-const apiKey= "de551b6676811bef90084b3fa81c815d"
+const apiKey= "openweather-apiKey numarasını gir"
 const apiUrl= "https://api.openweathermap.org/data/2.5/weather?units=metric&q="
 
 const arama=document.querySelector(".icerik input")
