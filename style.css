@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    background: #1d8b6e;
+}
+
+.genel {
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+}
+.icerik {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icerik input {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    border-radius: 30px;
+    margin: 10px;
+    font-size: 17px;
+}
+.icerik button {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+
+}
+
+.havaDurumu-ikonlar {
+    width: 170px;
+    margin-top: 30px;
+}
+.havaDurumu h1 {
+    font-size: 80px;
+    font-weight: 500;
+}
+.havaDurumu h2 {
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+.detay {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+.colon {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.colon img {
+    width: 40px;
+    margin-right: 10px;
+}
+.nem, .ruzgar {
+    font-size: 28px;
+    margin-top: -6px;
+}
+.havaDurumu {
+  display: none;  
+}
+.error {
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+}
